@@ -23,7 +23,7 @@ it('adding invoice', function(){
     //cy.wait(200)
     //cy.get('[data-testid="textInputField_bankName"]').type('Zachodni')
     //cy.get('[data-testid="textInputField_account"]').clear()
-    //cy.get('[data-testid="textInputField_account"]').type('23881100062251991839414333')
+    //cy.get('[data-testid="textInputField_account"]').type('23881100062251991839414333
     
     cy.get('.DaneNabywcy.groupCollapsed > .header > .headerLine').click()
     cy.get(':nth-child(3) > .groupContent > .fields-FieldGroupSimple > .personCompanyForm > :nth-child(1) > .DaneNabywcySimpleNipPesel > .fields-BaseField > .fieldContent > [data-testid="textInputField_nip"]').clear()
